@@ -1,3 +1,5 @@
+#the following functions allow you to create a sprcial matrix, that can cache the inverse of a square invertible matrix
+
 makeCacheMatrix <- function(x=matrix()){ #creates the special matrix to hold the cached inverse matrix
   m<-NULL
   set<-function(y) {
